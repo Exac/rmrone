@@ -1,0 +1,5 @@
+<!-- sidebar.php -->
+
+<aside>
+
+</aside>
