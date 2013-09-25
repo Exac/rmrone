@@ -12,3 +12,7 @@ body{
 	background:#cccccc;
 }
 
+img.aligncenter{
+	display:block;
+	margin:0 auto;
+}

@@ -29,6 +29,25 @@
 					html{margin-top:0px !important;}
 		</style>
 <?php } ?>
+<?php if ( is_page('database') ) { ?>
+<link rel="stylesheet" href="/db/css/metro_grey.css" type="text/css" media="screen" />
+<script type="text/javascript">
+			function openloginprompt()
+			{
+				$("#UserBoxLoginPrompt").fadeIn();
+				$("#UserBoxLoginPrompt input[name='loginfname']").focus();
+			}
+			function closeloginprompt()
+			{
+				$("#UserBoxLoginPrompt").fadeOut();
+			}
+</script>
+<script type="text/javascript" src="/db/js/search.js">
+</script>
+<?php 
+	echo "<!--DATABASE-->";
+	echo "<script>window.location.replace(\"http://db.ridgemeadowsracers.org\");</script>";
+	exit;}else{echo "<!--NOTDATABASE-->";} ?> 
 </head>
 <body>
 <!--[if lt IE 8]>
