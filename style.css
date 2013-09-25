@@ -1,0 +1,14 @@
+/*
+Theme Name: rmrone
+Theme URI: http://www.thomasmclennan.ca/rmrone
+Description: Ridge Meadows Racers WordPress theme. The theme is responsive HTML5-based and should work on all devices. The theme is based on the original site, and is a port.
+Version: 0
+Author: Thomas Mclennan
+Author URI: http://www.thomasmclennan.ca
+*/
+@charset "utf-8";
+
+body{
+	background:#cccccc;
+}
+
