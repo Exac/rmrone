@@ -29,7 +29,7 @@
 			</ul>
 		</div>
 		<div class="copyright">
-			<p>&copy; 1979 - <?php echo Date("Y"); ?> by Ridge Meadows Speed Skating Association. All rights reserved. Site designed by <a href="http://thomasmclennan.ca">Thomas Mclennan</a>.</p>
+			<p>&copy; 1979 - <?php echo Date("Y"); ?> Ridge Meadows Speed Skating Association. All rights reserved. Site designed by <a href="http://thomasmclennan.ca">Thomas Mclennan</a>.</p>
 		</div>
 	</footer>
 </div>

@@ -8,8 +8,89 @@ Author URI: http://www.thomasmclennan.ca
 */
 @charset "utf-8";
 
+*{ 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 body{
-	background:#cccccc;
+	background:rgb(235,244,251) url("./img/bg_mountains2.jpg") no-repeat fixed center bottom;
+	color:rgb(34,34,34);
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+header.wrapper,
+.main.wrapper,
+footer.wrapper{
+	max-width:1000px;
+	margin:0px auto;
+}
+
+.footer-container{
+	background-color:rgb(235,244,251);
+	background-image:url("./img/ticks9.jpg");
+	overflow:hidden;
+}
+footer.wrapper{
+	padding:3px 0px;
+	margin:15px auto 0px;
+}
+footer.wrapper *{
+	display:inline-block;
+	margin:0px 5px;
+}
+footer.wrapper a{
+	padding:2px;
+	border-radius:2px;
+	text-decoration:none;
+}
+footer.wrapper a:hover{
+	background-color:#222;
+	color:#fff;
+	cursor:pointer;
+}
+footer.wrapper:after{
+	content:" ";
+	width:100%;
+	height:1px;
+	display:block;
+}
+footer.wrapper h2,
+footer.wrapper .copyright{
+	display:block;
+	color:#a8c4c6;
+	font-weight:700;
+	font-size:0.75em;
+	text-transform:uppercase;
+}
+footer.wrapper .copyright{
+	margin-top:2em;
+	text-align:center;
+}
+footer.wrapper ul,footer.wrapper li{
+	display:block;
+}
+footer .social,
+footer .navigation,
+footer .recentposts{
+	margin:0px;
+	padding:0px;
+	width:31%;
+	vertical-align:top;
+}
+
+footer .social li a{
+	font-size:45px !important;
+	line-height:50px;
+	height:50px;
+	width:50px;
+	padding:2px 0px 0px 8px;
+	border-radius:50%;
+	background-color:#ffffff;
+}
+footer .social li{
+	margin:5px 0px;
 }
 
 img.aligncenter{
